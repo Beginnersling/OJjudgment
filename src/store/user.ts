@@ -3,10 +3,11 @@ import { StoreOptions } from "vuex";
 
 export default {
   namespace: true,
+  //todo 未能正确
   state: () => ({
     loginUser: {
       userName: "未登录",
-      role: "notLogin",
+      role: "admin",
     },
   }),
   actions: {
